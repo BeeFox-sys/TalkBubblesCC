@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "talkbubblescc",
+	"version": "${version}",
+	"name": "TalkBubblesCC",
+	"description": "Simple content creator focused mod that allows for speech bubbles",
+	"authors": [
+		"Beefox"
+	],
+	"contact": {
+		"homepage": "https://beefox.xyz/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/talkbubblescc/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"xyz.beefox.talkbubblescc.TalkBubblesCC"
+		],
+		"client": [
+			"xyz.beefox.talkbubblescc.TalkBubblesCCClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
