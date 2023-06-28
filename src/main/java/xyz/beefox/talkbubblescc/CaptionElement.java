@@ -28,6 +28,7 @@ public class CaptionElement extends ElementHolder {
 		caption.setText(Text.literal(message));
 		caption.setOffset(new Vec3d(0f, 2.35f, 0f));
 		caption.setBillboardMode(BillboardMode.CENTER);
+        caption.setViewRange(40);
 		this.addElement(caption);
 		
         VirtualEntityUtils.createRidePacket(marker.getEntityId(), caption.getEntityIds());

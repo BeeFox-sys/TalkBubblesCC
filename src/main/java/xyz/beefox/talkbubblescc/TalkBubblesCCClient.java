@@ -3,6 +3,7 @@ package xyz.beefox.talkbubblescc;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientLifecycleEvents;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
 import net.minecraft.client.MinecraftClient;
+
 import net.minecraft.network.PacketByteBuf;
 import net.minecraft.util.Identifier;
 
